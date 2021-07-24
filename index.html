@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>BookshopUI</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="shortcut icon" href="assets/images/header/headicon.png" type="image/png">
     <link rel="stylesheet" href="home_page/style.css">
     <link rel="stylesheet" href="assets/styles/fonts.css">
@@ -12,36 +13,96 @@
 </head>
 
 <body>
-    <h4>Latest Arrivals</h4>
-    
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__header-item-1"><a href="ведет на себя">Home</a></div>
+          <div class="nav__header-item-2"><a href="ведет куда-то"><img src="assets/images/header/search.svg" alt="поиск"></a></div>
+          <div class="nav__header-item-3"><a href="ведет куда-то"><img src="assets/images/header/bascket.svg" alt="корзина"></a></div>
+        </div>
+      </nav>
+    </header>
+<!-- header для book-page
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__header-item-1"><a href="ведет на себя"><img src="assets/images/header/chevron-left.svg" alt="назад"></a></div>
+          <div class="nav__header-item-2"><a href="ведет куда-то"><img src="assets/images/header/search.svg" alt="поиск"></a></div>
+          <div class="nav__header-item-3"><a href="ведет куда-то"><img src="assets/images/header/bascket.svg" alt="корзина"></a></div>
+        </div>
+      </nav>
+    </header>
+    -->
+<!-- header для profile
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__header-item-1"><a href="ведет на себя">Profile</a></div>
+          <div class="nav__header-item-2"><a href="ведет куда-то"><img src="assets/images/header/search.svg" alt="поиск"></a></div>
+          <div class="nav__header-item-3"><a href="ведет куда-то"><img src="assets/images/header/bascket.svg" alt="корзина"></a></div>
+        </div>
+      </nav>
+    </header>
+-->
+<article>
+  <div class="title">
+  <h1 class="title__header">Welcome back,<br> Jessica!</h1>
+  <p class="title__text">We’re glad to see you just <strong>16 days</strong> after<br> your last visit and can’t wait to help you<br> find your next page turner!</p>
+</div>
+</article>    
     
 
-      <div class="title__genres"><h5>Popular Genres</h5></div>
-      <div class="title__genres-template">
-            <div class="title__genres-item"><div class="title__genres-content"></div>General<br> Fiction</div>
-            <div class="title__genres-item"><div class="title__genres-content crime"></div>Crime</div>
-            <div class="title__genres-item"><div class="title__genres-content thriller"></div>Thriller</div>
-            <div class="title__genres-item"><div class="title__genres-content romance"></div>Romance</div>
-            <div class="title__genres-item"><div class="title__genres-content travel"></div>Travel</div>
-            <div class="title__genres-item"><div class="title__genres-content sport"></div>Sports</div>
-            <div class="title__genres-item"><div class="title__genres-content Science"></div>Science<br> Fiction</div>
-            <div class="title__genres-item"><div class="title__genres-content Fantasy"></div>Fantasy</div>
-            <div class="title__genres-item"><div class="title__genres-content Young"></div>Young<br> Adult</div>
-            <div class="title__genres-item"><div class="title__genres-content Children"></div>Children’s<br> Books</div>
-            <div class="title__genres-item"><div class="title__genres-content Classics"></div>Classics</div>
-            <div class="title__genres-item"><div class="title__genres-content Nature"></div>Nature</div>
+      <div class="list__genres"><h5>Popular Genres</h5></div>
+      <div class="list__genres-template">
+            <div class="list__genres-item"><div class="list__genres-content"></div>General<br> Fiction</div>
+            <div class="list__genres-item"><div class="list__genres-content crime"></div>Crime</div>
+            <div class="list__genres-item"><div class="list__genres-content thriller"></div>Thriller</div>
+            <div class="list__genres-item"><div class="list__genres-content romance"></div>Romance</div>
+            <div class="list__genres-item"><div class="list__genres-content travel"></div>Travel</div>
+            <div class="list__genres-item"><div class="list__genres-content sport"></div>Sports</div>
+            <div class="list__genres-item"><div class="list__genres-content Science"></div>Science<br> Fiction</div>
+            <div class="list__genres-item"><div class="list__genres-content Fantasy"></div>Fantasy</div>
+            <div class="list__genres-item"><div class="list__genres-content Young"></div>Young<br> Adult</div>
+            <div class="list__genres-item"><div class="list__genres-content Children"></div>Children’s<br> Books</div>
+            <div class="list__genres-item"><div class="list__genres-content Classics"></div>Classics</div>
+            <div class="list__genres-item"><div class="list__genres-content Nature"></div>Nature</div>
       </div>
       <footer>
         <nav>
           <div class="nav__footer">
-            <div class="nav__footer-item"><a href="ведет на себя"><img src="assets/images/footer/home.svg" alt="домой"></a><div class="nav__footer-content home"></div>Home</div>
-            <div class="nav__footer-item"><a href="ведет куда-то"><img src="assets/images/footer/browse.svg" alt="поиск"></a><div class="nav__footer-content no-active"></div>Browse</div>
-            <div class="nav__footer-item"><a href="ведет куда-то"><img src="assets/images/footer/wishlist.svg" alt="вишлист"></a><div class="nav__footer-content no-active"></div>Wishlist</div>
-            <div class="nav__footer-item"><a href="ведет на профиль"><img src="assets/images/footer/profile.svg" alt="профиль"></a><div class="nav__footer-content no-active"></div>Profile</div>
+            <div class="nav__footer-item"><a href="ведет на себя"><img src="assets/images/footer/home.svg" alt="домой"></a><div class="nav__footer-content home"></div>home</div>
+            <div class="nav__footer-item no-active"><a href="ведет куда-то"><img src="assets/images/footer/browse-link.svg" alt="поиск"></a><div class="nav__footer-content"></div>browse</div>
+            <div class="nav__footer-item no-active"><a href="ведет куда-то"><img src="assets/images/footer/wishlist-link.svg" alt="вишлист"></a><div class="nav__footer-content"></div>wishlist</div>
+            <div class="nav__footer-item no-active"><a href="ведет на профиль"><img src="assets/images/footer/profile-link.svg" alt="профиль"></a><div class="nav__footer-content"></div>profile</div>
           </div>
         </nav>
       </footer>
+
+      <!--футер для book-page 
+        <footer>
+        <nav>
+          <div class="nav__footer">
+            <div class="nav__footer-item"><a href="ведет на себя"><img src="assets/images/footer/home.svg" alt="домой"></a><div class="nav__footer-content home"></div>home</div>
+            <div class="nav__footer-item no-active"><a href="ведет куда-то"><img src="assets/images/footer/browse-link.svg" alt="поиск"></a><div class="nav__footer-content"></div>browse</div>
+            <div class="nav__footer-item no-active"><a href="ведет куда-то"><img src="assets/images/footer/wishlist-link.svg" alt="вишлист"></a><div class="nav__footer-content"></div>wishlist</div>
+            <div class="nav__footer-item no-active"><a href="ведет на профиль"><img src="assets/images/footer/profile-link.svg" alt="профиль"></a><div class="nav__footer-content"></div>profile</div>
+          </div>
+        </nav>
+      </footer>
+    -->
    
+      <!-- футер для profile 
+        <footer>
+        <nav>
+          <div class="nav__footer">
+            <div class="nav__footer-item no-active"><a href="ведет на себя"><img src="assets/images/footer/home-link.svg" alt="домой"></a><div class="nav__footer-content home"></div>home</div>
+            <div class="nav__footer-item no-active"><a href="ведет куда-то"><img src="assets/images/footer/browse-link.svg" alt="поиск"></a><div class="nav__footer-content"></div>browse</div>
+            <div class="nav__footer-item no-active"><a href="ведет куда-то"><img src="assets/images/footer/wishlist-link.svg" alt="вишлист"></a><div class="nav__footer-content"></div>wishlist</div>
+            <div class="nav__footer-item"><a href="ведет на профиль"><img src="assets/images/footer/profile.svg" alt="профиль"></a><div class="nav__footer-content"></div>profile</div>
+          </div>
+        </nav>
+      </footer> 
+    -->
     
 
     
