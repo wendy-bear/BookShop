@@ -15,16 +15,37 @@
 
     <script type="text/javascript" src="/assets/js/init.js"></script>
 
+    <link rel="stylesheet" href="../assets/styles/style.css">
     <link rel="stylesheet" href="/assets/styles/fonts.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <header></header>
+    <header>
+        <nav>
+            <div class="nav__header">
+                <div class="nav__header-item-1"><a href="ведет на себя">Home</a></div>
+                <div class="nav__header-item-2"><a href="ведет куда-то"><img src="assets/images/header/search.svg"
+                            alt="поиск"></a></div>
+                <div class="nav__header-item-3"><a href="ведет куда-то"><img src="assets/images/header/bascket.svg"
+                            alt="корзина"></a></div>
+            </div>
+        </nav>
+    </header>
 
     <main>
-        <!-- Purchased books -->
+        <section class="favorite-genres">
+            <h2 class="favorite-genres__title">Favorite Genres</h2>
+            <div class="favorite-genres__tags">
+                <div class="favorite-genres__tag darkblue-blue">African</div>
+                <div class="favorite-genres__tag pink-red">Classics</div>
+                <div class="favorite-genres__tag yellow-red">Contemporary</div>
+                <div class="favorite-genres__tag yellow-red">Feminist Literature</div>
+                <div class="favorite-genres__tag blue-yellow">Memoirs</div>
+                <div class="favorite-genres__tag red-yellow">Psychological Thrillers</div>
+                <div class="favorite-genres__tag darkblue-blue">True Crime</div>
+            </div>
+        </section>
 
         <section class="carousel">
             <h2 class="carousel__title">Purchased books <span class="carousel__book-count">19</span></h2>
@@ -188,23 +209,30 @@
                 </div>
             </div>
         </section>
-
-        <section class="favorite-genres">
-            <h2 class="favorite-genres__title">Favorite Genres</h2>
-            <div class="favorite-genres__tags">
-                <div class="favorite-genres__tag darkblue-blue">African</div>
-                <div class="favorite-genres__tag pink-red">Classics</div>
-                <div class="favorite-genres__tag yellow-red">Contemporary</div>
-                <div class="favorite-genres__tag yellow-red">Feminist Literature</div>
-                <div class="favorite-genres__tag blue-yellow">Memoirs</div>
-                <div class="favorite-genres__tag red-yellow">Psychological Thrillers</div>
-                <div class="favorite-genres__tag darkblue-blue">True Crime</div>
-            </div>
-        </section>
     </main>
 
-    <footer></footer>
-
+    <footer>
+        <nav>
+            <div class="nav__footer">
+                <div class="nav__footer-item">
+                    <a href="#"><img src="../assets/images/footer/home.svg" alt="домой"></a>
+                    <div class="nav__footer-content home"></div>home
+                </div>
+                <div class="nav__footer-item no-active">
+                    <a href="#"><img src="../assets/images/footer/browse-link.svg" alt="поиск"></a>
+                    <div class="nav__footer-content"></div>browse
+                </div>
+                <div class="nav__footer-item no-active">
+                    <a href="#"><img src="../assets/images/footer/wishlist-link.svg" alt="вишлист"></a>
+                    <div class="nav__footer-content"></div>wishlist
+                </div>
+                <div class="nav__footer-item no-active">
+                    <a href="#"><img src="../assets/images/footer/profile-link.svg" alt="профиль"></a>
+                    <div class="nav__footer-content"></div>profile
+                </div>
+            </div>
+        </nav>
+    </footer>
 </body>
 
 </html>
