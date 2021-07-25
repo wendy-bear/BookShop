@@ -11,4 +11,30 @@ $(document).ready(function(){
            580:{items:4},
         }
      });
+
+     $('.carousel__row_promo').owlCarousel({
+        loop:true,
+        nav:true,
+        margin:8,
+        mouseDrag:true,
+        touchDrag:true,
+        video:true,
+        responsive:{
+           300:{items:1.5},
+           580:{items:2},
+        }
+     });
+
+     $('.carousel__row_authors').owlCarousel({
+        loop:true,
+        nav:true,
+        margin:16,
+        mouseDrag:true,
+        touchDrag:true,
+        video:true,
+        responsive:{
+           300:{items:6.5},
+           580:{items:8},
+        }
+     });
   });
