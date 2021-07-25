@@ -195,10 +195,80 @@ h5 {
     margin-left: 160px;
 }
 
+.profile__header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.profle__img {
+    width: 128px;
+    height: 131px;
+    background: url(/Week-9-project-1/assets/images/profile_page/profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px 0px 20px 0px;
+}
+
+.profile__title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.25px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.profile__text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #828282;
+}
+
+.profile__desc {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+
+}
+
+.profle__foll {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4F4F4F;
+    margin: 0px 50px 0px 50px;
+
+}
+
+.profile__cif {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}
 
 /*
-.nav__header-item,
-.nav__header-content,
+.profile__desc,
+.profile__cif,
 div {
     border: 1px solid black;
 }
