@@ -16,6 +16,15 @@ body {
     line-height: 20px;
 }
 
+.carousel__title-playfair {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
 .carousel__title span {
     margin-left: 8px;
     font-family: Montserrat;
@@ -52,4 +61,13 @@ body {
     font-size: 12px;
     line-height: 17px;
     color: #4F4F4F;
+}
+
+.carousel__caption-price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #D96F6E;
 }

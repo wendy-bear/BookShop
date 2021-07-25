@@ -9,7 +9,6 @@ $(document).ready(function(){
         responsive:{
            300:{items:2.5},
            580:{items:4},
-           760:{items:6}
         }
      });
   });
