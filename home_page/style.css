@@ -266,9 +266,135 @@ h5 {
     margin-top: 10px;
 }
 
+.wishlist__title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    margin: 0px 20px 0px 24px;
+}
+
+.wishlist__cif {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    color: #53889D;
+}
+
+.wishlist {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.wishlist__template {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.wishlist__template-item-1 {
+    width: 104px;
+    height: 160.46px;
+    background: url(/Week-9-project-1/assets/images/coverbooks/book-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5px;
+
+}
+
+.wishlist__template-item-2 {
+    width: 104px;
+    height: 138.67px;
+    background: url(/Week-9-project-1/assets/images/coverbooks/book-7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
+    margin: 5px;
+    align-self: flex-start;
+
+}
+
+.wishlist__template-item-3 {
+    width: 104px;
+    height: 150.9px;
+    background: url(/Week-9-project-1/assets/images/coverbooks/book-8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
+    margin: 5px;
+    align-self: flex-start;
+
+}
+
+.wishlist__template-item-4 {
+    width: 104px;
+    height: 157.82px;
+    background: url(/Week-9-project-1/assets/images/coverbooks/book-9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
+    margin: 5px;
+    align-self: flex-start;
+
+}
+
+.wishlist__template-item-5 {
+    width: 104px;
+    height: 160.91px;
+    background: url(/Week-9-project-1/assets/images/coverbooks/book-10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
+    margin: -35px 5px 5px 5px;
+}
+
+.wishlist__template-item-6 {
+    width: 104px;
+    height: 157.32px;
+    background: url(/Week-9-project-1/assets/images/coverbooks/book-11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
+    margin: -10px 5px 5px 5px;
+}
+
+.wishlist__link {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.wishlist__link a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    color: #D96F6E;
+}
+
 /*
-.profile__desc,
-.profile__cif,
+.wishlist__template,
+.wishlist__template-item-1,
+.wishlist__template-item-2,
+.wishlist__template-item-3,
+.wishlist__template-item-4,
+.wishlist__template-item-5,
+.wishlist__template-item-6,
 div {
     border: 1px solid black;
 }
