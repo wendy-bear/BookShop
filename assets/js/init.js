@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $('.carousel__row').owlCarousel({
+        loop:true,
+        nav:true,
+        margin:16,
+        mouseDrag:true,
+        touchDrag:true,
+        video:true,
+        responsive:{
+           300:{items:2.5},
+           580:{items:4},
+           760:{items:6}
+        }
+     });
+  });

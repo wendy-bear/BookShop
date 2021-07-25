@@ -1,0 +1,55 @@
+body {
+    color: #333333;
+}
+
+/* carousel */
+.owl-nav {
+    display: none;
+}
+
+.carousel__title {
+    margin-bottom: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.carousel__title span {
+    margin-left: 8px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 140%;
+    color: #53889D;
+}
+
+.carousel__item {
+    width: 128px;
+}
+
+.carousel__item img {
+    height: 210px;
+}
+
+.carousel__caption {
+    margin-top: 7px;
+}
+
+.carousel__caption-text {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.carousel__caption-subtext {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #4F4F4F;
+}
