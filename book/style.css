@@ -1,0 +1,78 @@
+/* Extra Small Devices, Phones */
+/* @media only screen and (max-width : 480px) and (orientation: portrait) { */
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book__cover {
+    max-width: 40%;
+}
+
+.book__title {
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+}
+
+.book__author {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.book__publish-data {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.book__text {
+    margin-top: 0.2rem;
+    text-align: center;
+}
+
+.box-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.box-btn__btn {
+    width: 18.75rem;
+    height: 2.5rem;
+    margin: 0.2rem 0;
+    border-radius: 8px;
+    border: 0;
+    color: #ffffff
+}
+
+.box-btn__btn_blush {
+    background-color: #D96F6E;
+}
+
+.box-btn__btn_soft-pink {
+    background-color: #F3A492;
+}
+
+.descr-publish-book {
+    text-align: center;
+    margin: 2em 3em;
+}
+
+.share {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.share__title {
+    margin: 0.5em 0;
+}
+
+.share__socia-items>img {
+    margin: 0 0.4rem;
+}
