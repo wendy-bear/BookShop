@@ -6,7 +6,8 @@ header a {
 
 h1,
 h4,
-h5 {
+h5,
+.carousel__title_playfair {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: bold;
@@ -31,6 +32,10 @@ h5 {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     margin-left: 24px;
+}
+
+.title {
+    margin-bottom: 50px;
 }
 
 .list__genres-template {
@@ -203,7 +208,7 @@ h5 {
     align-items: center;
 }
 
-.profle__img {
+.profile__img {
     width: 128px;
     height: 131px;
     background: url(/Week-9-project-1/assets/images/profile_page/profile.png);
@@ -244,7 +249,7 @@ h5 {
 
 }
 
-.profle__foll {
+.profile__foll {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
