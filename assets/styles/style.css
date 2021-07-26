@@ -2,6 +2,15 @@
     padding: 0.5rem;
 }
 
+article,
+section {
+    padding-bottom: 50px;
+}
+
+.wrapper {
+    padding: 0 24px;
+}
+
 /* footer */
 
 .nav__footer {
@@ -70,6 +79,10 @@
 /* carousel */
 .owl-nav {
     display: none;
+}
+
+.carousel {
+    padding-left: 24px;
 }
 
 .carousel__title {
