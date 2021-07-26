@@ -35,6 +35,10 @@ body {
     color: #FFFFFF;
 }
 
+.favorite-genres__tag:hover {
+    box-shadow: #787878 0 0 6px;
+}
+
 .favorite-genres__tag.darkblue-blue {
     background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
 }
