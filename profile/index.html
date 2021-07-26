@@ -16,7 +16,8 @@
     <script src="/assets/js/init.js"></script>
 
     <link rel="stylesheet" href="../assets/styles/style.css">
-    <link rel="stylesheet" href="/assets/styles/fonts.css">
+    <link rel="stylesheet" href="../assets/styles/fonts.css">
+    <link rel="stylesheet" href="../assets/styles/normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,16 +25,33 @@
     <header>
         <nav>
             <div class="nav__header">
-                <div class="nav__header-item-1"><a href="#">Home</a></div>
-                <div class="nav__header-item-2"><a href="#"><img src="assets/images/header/search.svg" alt="поиск"></a>
+                <div class="nav__header-item-1"><a href="#">Profile</a></div>
+                <div class="nav__header-item-2"><a href="#"><img src="/assets/images/header/search.svg"
+                            alt="Search"></a>
                 </div>
-                <div class="nav__header-item-3"><a href="#"><img src="assets/images/header/bascket.svg"
-                            alt="корзина"></a></div>
+                <div class="nav__header-item-3"><a href="#"><img src="/assets/images/header/bascket.svg" alt="Bin"></a>
+                </div>
             </div>
         </nav>
     </header>
-
     <main>
+        <article>
+            <div class="profile__header">
+                <div class="profile__img"></div>
+                <div class="profile__title">Jessica Mapleton</div>
+                <p class="profile__text">Cape Town, South Africa</p>
+            </div>
+            <div class="profile__desc">
+                <div class="profile__foll">Following<br>
+                    <div class="profile__cif">2,1k</div>
+                </div>
+                <div class="profile__foll">Followers<br>
+                    <div class="profile__cif">945k</div>
+                </div>
+            </div>
+        </article>
+
+
         <section class="favorite-genres">
             <h2 class="favorite-genres__title">Favorite Genres</h2>
             <div class="favorite-genres__tags">
@@ -84,8 +102,10 @@
             <a href="." class="carousel__link">View all Purchased Books</a>
         </section>
 
+
         <!-- Latest arrivals -->
 
+        <!--     
         <section class="carousel">
             <h2 class="carousel__title_playfair">Latest arrivals</h2>
 
@@ -112,11 +132,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-- Similar publications -->
 
-        <section class="carousel">
+        <!--<section class="carousel">
             <h2 class="carousel__title_playfair">Similar publications:</h2>
 
             <div class="owl-carousel carousel__row ">
@@ -145,11 +165,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Popular lists -->
 
-        <section class="carousel_promo">
+        <!-- <section class="carousel_promo">
             <h2 class="carousel__title_playfair">Popular lists</h2>
             <div class="owl-carousel carousel__row_promo">
                 <div class="carousel__item_promo">
@@ -159,12 +179,12 @@
                     <img alt="Popular list" src="/assets/images/home_page/popular-2.svg">
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
         <!-- Authors -->
 
-        <section class="carousel_authors">
+        <!-- <section class="carousel_authors">
             <h2 class="carousel__title_playfair">Top 10 Authors</h2>
             <div class="owl-carousel carousel__row_authors">
                 <div class="carousel__item_author">
@@ -208,7 +228,7 @@
                     <div class="carousel__caption_small">Gregory Fisher</div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
 
     <footer>

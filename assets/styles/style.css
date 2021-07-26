@@ -171,7 +171,7 @@
     color: #D96F6E;
 }
 
-/*.profile__header {
+.profile__header {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -182,7 +182,7 @@
 .profile__img {
     width: 128px;
     height: 131px;
-    background: url(/Week-9-project-1/assets/images/profile_page/profile.png);
+    background: url(/assets/images/profile_page/profile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -362,4 +362,3 @@
     text-align: center;
     color: #D96F6E;
 }
-*/
