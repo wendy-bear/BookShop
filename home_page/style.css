@@ -34,9 +34,9 @@ h5,
     margin-left: 24px;
 }
 
-.title {
+/*.title {
     margin-bottom: 50px;
-}
+}*/
 
 .list__genres-template {
     display: flex;
@@ -56,6 +56,10 @@ h5,
     line-height: 140%;
     color: #4F4F4F;
     margin: 2px;
+}
+
+.list__genres-item .list__genres-content:hover {
+    border: 1px solid #D96F6E;
 }
 
 .list__genres-content {
