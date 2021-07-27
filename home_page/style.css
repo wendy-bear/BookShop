@@ -58,8 +58,8 @@ h5,
     margin: 2px;
 }
 
-.list__genres-item a:hover {
-    background-blend-mode: color #D96F6E;
+.list__genres-item .list__genres-content:hover {
+    border: 1px solid #D96F6E;
 }
 
 .list__genres-content {
