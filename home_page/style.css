@@ -58,6 +58,10 @@ h5,
     margin: 2px;
 }
 
+.list__genres-item a:hover {
+    border: 1px solid #D96F6E;
+}
+
 .list__genres-content {
     width: 76px;
     height: 76px;
