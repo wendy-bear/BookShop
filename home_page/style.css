@@ -59,7 +59,7 @@ h5,
 }
 
 .list__genres-item a:hover {
-    border: 1px solid #D96F6E;
+    background-blend-mode: color #D96F6E;
 }
 
 .list__genres-content {
