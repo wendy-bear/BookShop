@@ -52,7 +52,6 @@ section {
     height: 56px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
     align-content: center;
     align-items: center;
     background: #FFFFFF;
@@ -69,16 +68,17 @@ section {
     color: initial;
 }
 
-.nav__header-item-3 {
-    margin-right: 35px;
+.nav__header-item-3,
+.nav__header-item-2 {
+    flex: 1;
+    margin: 0 auto;
+    max-width: 60px;
+    text-align: center;
 }
 
 .nav__header-item-1 {
+    flex: 7;
     margin-left: 24px;
-}
-
-.nav__header-item-2 {
-    margin-left: 160px;
 }
 
 .nav__header-item-3:hover img,
@@ -123,6 +123,7 @@ section {
 }
 
 .carousel__item {
+    cursor: pointer;
     width: 100%;
     max-width: 150px;
 }

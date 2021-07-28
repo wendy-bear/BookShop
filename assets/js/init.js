@@ -8,7 +8,7 @@ $(document).ready(function(){
         video:true,
         responsive:{
            300:{items:2.5},
-           580:{items:4},
+           760:{items:4},
         }
      });
 
@@ -21,7 +21,7 @@ $(document).ready(function(){
         video:true,
         responsive:{
            300:{items:1.5},
-           580:{items:2},
+           760:{items:2},
         }
      });
 
@@ -34,7 +34,7 @@ $(document).ready(function(){
         video:true,
         responsive:{
            300:{items:6.5},
-           580:{items:8},
+           760:{items:8},
         }
      });
   });
