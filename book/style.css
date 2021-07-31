@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1.25rem;
 }
 
 .book__cover {
@@ -117,6 +118,11 @@
 }
 
 /* genres */
+.favorite-genres {
+    padding: 1.25rem;
+}
+
+
 .favorite-genres__tags {
     justify-content: center;
 }

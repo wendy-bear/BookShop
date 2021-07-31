@@ -9,67 +9,59 @@ h5 {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 1.25rem;
+    line-height: 1.7rem;
     color: #000000;
-    margin-left: 24px;
 }
 
 .title__header {
-    font-size: 31.25px;
-    line-height: 36px;
-    margin-top: 50px;
+    font-size: 2rem;
+    line-height: 2.25rem;
 }
 
 .title__text {
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    margin-left: 24px;
 }
 
-/*.title {
-    margin-bottom: 50px;
-}*/
+/* genres */
 
 .list__genres-template {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    align-content: center;
-    align-items: stretch;
-    margin: 20px 0px 0px 27px;
+    align-content: left;
 }
 
 .list__genres-item {
+    flex: 0 1 auto;
+    margin: 0 0.31rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 140%;
     color: #4F4F4F;
-    margin: 2px;
 }
 
 .list__genres-item .list__genres-content:hover {
-    border: 1px solid #D96F6E;
+    border: 0.16rem solid #D96F6E;
 }
 
 .list__genres-content {
     width: 76px;
     height: 76px;
     background: #FFFFFF;
-    box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
-    border-radius: 8px;
+    box-shadow: 0.16rem 0.16rem 0.625rem rgba(78, 55, 55, 0.1);
+    border-radius: 0.2rem;
     background: url(../assets/images/home_page/icons-book-shelf-general.svg);
     background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
 }
 
 .crime {
@@ -136,198 +128,6 @@ h5 {
     background: url(../assets/images/home_page/icons8-leaf.svg);
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.profile__header {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-
-.profile__img {
-    width: 128px;
-    height: 131px;
-    background: url(../assets/images/profile_page/profile.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 50px 0px 20px 0px;
-}
-
-.profile__title {
-    font-family: 'Playfair Display', serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 31.25px;
-    line-height: 36px;
-    text-align: center;
-    color: #000000;
-}
-
-.profile__text {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    text-align: center;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: #828282;
-}
-
-.profile__desc {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    margin: 20px 0px 0px 0px;
-
-}
-
-.profile__foll {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    color: #4F4F4F;
-    margin: 0px 50px 0px 50px;
-
-}
-
-.profile__cif {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #000000;
-    margin-top: 10px;
-}
-
-.wishlist__title {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    color: #333333;
-    margin: 0px 20px 0px 24px;
-}
-
-.wishlist__cif {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 140%;
-    color: #53889D;
-}
-
-.wishlist {
-    display: flex;
-    margin-bottom: 15px;
-}
-
-.wishlist__template {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-content: center;
-    align-items: center;
-    margin-left: 24px;
-}
-
-.wishlist__template-item-1 {
-    width: 104px;
-    height: 160.46px;
-    background: url(../assets/images/coverbooks/book-2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 5px;
-
-}
-
-.wishlist__template-item-2 {
-    width: 104px;
-    height: 138.67px;
-    background: url(../assets/images/coverbooks/book-7.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
-    margin: 5px;
-    align-self: flex-start;
-
-}
-
-.wishlist__template-item-3 {
-    width: 104px;
-    height: 150.9px;
-    background: url(../assets/images/coverbooks/book-8.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
-    margin: 5px;
-    align-self: flex-start;
-
-}
-
-.wishlist__template-item-4 {
-    width: 104px;
-    height: 157.82px;
-    background: url(../assets/images/coverbooks/book-9.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
-    margin: 5px;
-    align-self: flex-start;
-
-}
-
-.wishlist__template-item-5 {
-    width: 104px;
-    height: 160.91px;
-    background: url(/Week-9-project-1/assets/images/coverbooks/book-10.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
-    margin: -35px 5px 5px 5px;
-}
-
-.wishlist__template-item-6 {
-    width: 104px;
-    height: 157.32px;
-    background: url(/Week-9-project-1/assets/images/coverbooks/book-11.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    filter: drop-shadow(1px 1px 10px rgba(78, 55, 55, 0.2));
-    margin: -10px 5px 5px 5px;
-}
-
-.wishlist__link {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-}
-
-.wishlist__link a {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 140%;
-    text-align: center;
-    color: #D96F6E;
 }
 
 
