@@ -1,13 +1,11 @@
 header a {
     text-decoration: none;
     color: #4F4F4F;
-
 }
 
 h1,
 h4,
-h5,
-.carousel__title_playfair {
+h5 {
     font-family: 'Playfair Display', serif;
     font-style: normal;
     font-weight: bold;
@@ -68,141 +66,77 @@ h5,
     background: #FFFFFF;
     box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
     border-radius: 8px;
-    background: url(/Week-9-project-1/assets/images/home_page/icons-book-shelf-general.svg);
+    background: url(../assets/images/home_page/icons-book-shelf-general.svg);
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 5px;
 }
 
 .crime {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-detectivt.svg);
+    background: url(../assets/images/home_page/icons8-detectivt.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .thriller {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-knife.svg);
+    background: url(../assets/images/home_page/icons8-knife.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .romance {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-heart.svg);
+    background: url(../assets/images/home_page/icons8-heart.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .travel {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-geography.svg);
+    background: url(../assets/images/home_page/icons8-geography.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .sport {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-tennis-racquet.svg);
+    background: url(../assets/images/home_page/icons8-tennis-racquet.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .Science {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-physics.svg);
+    background: url(../assets/images/home_page/icons8-physics.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .Fantasy {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-witch.svg);
+    background: url(../assets/images/home_page/icons8-witch.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .Young {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-couple.svg);
+    background: url(../assets/images/home_page/icons8-couple.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .Children {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-children.svg);
+    background: url(../assets/images/home_page/icons8-children.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .Classics {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-book.svg);
+    background: url(../assets/images/home_page/icons8-book.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .Nature {
-    background: url(/Week-9-project-1/assets/images/home_page/icons8-leaf.svg);
+    background: url(../assets/images/home_page/icons8-leaf.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.nav__footer {
-    width: 100%;
-    height: 56px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    background: #FFFFFF;
-    box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
-    margin-top: 50px;
-}
-
-.nav__footer-item {
-    align-items: center;
-    justify-content: center;
-    align-content: stretch;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    color: #53889D;
-
-}
-
-.no-active {
-    color: #BBD1D9;
-}
-
-.nav__footer-content {
-    margin-top: 5px;
-}
-
-/*.nav__header {
-    width: 100%;
-    height: 56px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.nav__header-item-3 {
-    margin-right: 35px;
-}
-
-.nav__header-item-1 {
-    margin-left: 24px;
-}
-
-.nav__header-item-2 {
-    margin-left: 160px;
-}*/
 
 .profile__header {
     display: flex;
@@ -215,7 +149,7 @@ h5,
 .profile__img {
     width: 128px;
     height: 131px;
-    background: url(/Week-9-project-1/assets/images/profile_page/profile.png);
+    background: url(../assets/images/profile_page/profile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -311,7 +245,7 @@ h5,
 .wishlist__template-item-1 {
     width: 104px;
     height: 160.46px;
-    background: url(/Week-9-project-1/assets/images/coverbooks/book-2.jpg);
+    background: url(../assets/images/coverbooks/book-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -322,7 +256,7 @@ h5,
 .wishlist__template-item-2 {
     width: 104px;
     height: 138.67px;
-    background: url(/Week-9-project-1/assets/images/coverbooks/book-7.jpg);
+    background: url(../assets/images/coverbooks/book-7.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -335,7 +269,7 @@ h5,
 .wishlist__template-item-3 {
     width: 104px;
     height: 150.9px;
-    background: url(/Week-9-project-1/assets/images/coverbooks/book-8.jpg);
+    background: url(../assets/images/coverbooks/book-8.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -348,7 +282,7 @@ h5,
 .wishlist__template-item-4 {
     width: 104px;
     height: 157.82px;
-    background: url(/Week-9-project-1/assets/images/coverbooks/book-9.jpg);
+    background: url(../assets/images/coverbooks/book-9.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -476,74 +410,74 @@ h5,
         background: #FFFFFF;
         box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
         border-radius: 8px;
-        background: url(/Week-9-project-1/assets/images/home_page/icons-book-shelf-general.svg);
+        background: url(../assets/images/home_page/icons-book-shelf-general.svg);
         background-position: center;
         background-repeat: no-repeat;
         margin-bottom: 10px;
     }
 
     .crime {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-detectivt.svg);
+        background: url(../assets/images/home_page/icons8-detectivt.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .thriller {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-knife.svg);
+        background: url(../assets/images/home_page/icons8-knife.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .romance {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-heart.svg);
+        background: url(../assets/images/home_page/icons8-heart.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .travel {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-geography.svg);
+        background: url(../assets/images/home_page/icons8-geography.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .sport {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-tennis-racquet.svg);
+        background: url(../assets/images/home_page/icons8-tennis-racquet.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .Science {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-physics.svg);
+        background: url(../assets/images/home_page/icons8-physics.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .Fantasy {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-witch.svg);
+        background: url(../assets/images/home_page/icons8-witch.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .Young {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-couple.svg);
+        background: url(../assets/images/home_page/icons8-couple.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .Children {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-children.svg);
+        background: url(../assets/images/home_page/icons8-children.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .Classics {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-book.svg);
+        background: url(../assets/images/home_page/icons8-book.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
 
     .Nature {
-        background: url(/Week-9-project-1/assets/images/home_page/icons8-leaf.svg);
+        background: url(../assets/images/home_page/icons8-leaf.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
