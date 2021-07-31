@@ -187,11 +187,16 @@ section {
 }
 
 .carousel__link {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
     color: #D96F6E;
-    font-size: 0.75rem;
 }
 
 /* favorite-genres */

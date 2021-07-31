@@ -183,21 +183,7 @@ body {
     margin: -10px 5px 5px 5px;
 }
 
-.wishlist__link {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-}
 
-.wishlist__link a {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 140%;
-    text-align: center;
-    color: #D96F6E;
-}
 
 @media (min-width: 768px) {
 
