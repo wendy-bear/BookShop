@@ -67,56 +67,78 @@ h5 {
 
 .crime {
     background: url(../assets/images/home_page/icons8-detectivt.svg);
+    background-position: center;
+        background-repeat: no-repeat;
 
 }
 
 .thriller {
     background: url(../assets/images/home_page/icons8-knife.svg);
+    background-position: center;
+        background-repeat: no-repeat;
 
 }
 
 .romance {
     background: url(../assets/images/home_page/icons8-heart.svg);
+    background-position: center;
+        background-repeat: no-repeat;
 
 }
 
 .travel {
     background: url(../assets/images/home_page/icons8-geography.svg);
+    background-position: center;
+        background-repeat: no-repeat;
 
 }
 
 .sport {
     background: url(../assets/images/home_page/icons8-tennis-racquet.svg);
+    background-position: center;
+        background-repeat: no-repeat;
 
 }
 
 .Science {
     background: url(../assets/images/home_page/icons8-physics.svg);
+    background-position: center;
+        background-repeat: no-repeat;
 
 }
 
 .Fantasy {
     background: url(../assets/images/home_page/icons8-witch.svg);
+    background-position: center;
+        background-repeat: no-repeat;
 
 }
 
 .Young {
     background: url(../assets/images/home_page/icons8-couple.svg);
+    background-position: center;
+        background-repeat: no-repeat;
     ;
 }
 
 .Children {
     background: url(../assets/images/home_page/icons8-children.svg);
+    background-position: center;
+        background-repeat: no-repeat;
 
 }
 
 .Classics {
     background: url(../assets/images/home_page/icons8-book.svg);
+    background-position: center;
+        background-repeat: no-repeat;
 
 }
 
 .Nature {
     background: url(../assets/images/home_page/icons8-leaf.svg);
+    background-position: center;
+        background-repeat: no-repeat;
 
 }
 
